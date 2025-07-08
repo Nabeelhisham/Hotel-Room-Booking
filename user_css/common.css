@@ -1,0 +1,55 @@
+
+
+:root{
+    --teal: #007BFF;
+    --teal_hover:#279e8c;
+}
+*{
+ font-family: 'Poppins', sans-serif;
+ }
+.h-font{
+font-family: 'Merienda', cursive;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-apperance: textfield;
+}
+
+.custom-alert {
+    position: fixed;
+    top: 80px;
+    right: 25px;
+    z-index: 110;
+}
+
+.custom-bg{
+background-color: var(--teal);
+border:1px solid var(--teal);
+}
+
+.custom-bg:hover{
+ background-color: var(--teal_hover);
+ border-color:var(--teal_hover);
+}
+.h-line{
+    width:150px;
+    margin:0 auto;
+    height:1.7px;
+}
+
+.bg-light{
+    background-image: url("https://images.unsplash.com/photo-1454117096348-e4abbeba002c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") !important; 
+
+}
+
+
+.bgcolor-nav{
+    background-color: #4a4a4a !important;
+    
+}
