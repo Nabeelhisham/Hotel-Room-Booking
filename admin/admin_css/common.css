@@ -54,3 +54,18 @@ border:1px solid var(--teal);
     margin-top: 60px;
 }
 }
+
+
+
+.bgcolor-sidebar{
+    background-color: #0077B6 !important;
+}
+
+
+.bg-light{
+    background-color: #D9E5F2 !important;
+}
+
+.headercolor{
+    background-color: #005F8A !important;
+}

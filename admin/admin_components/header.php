@@ -1,13 +1,13 @@
 
 
 <!-- header -->
-<div class="container-fluid bg-dark text-light p-3 d-flex align-items-center justify-content-between sticky-top">
+<div class="container-fluid bg-dark text-light p-3 d-flex align-items-center justify-content-between sticky-top headercolor">
 <h3 class="mb-0 h-font">Novotel</h3>
 <a href="logout.php" class="btn btn-light btn-sm">Logout</a>
 </div>
 
 <!-- sidebar -->
-<div class="col-lg-2 bg-dark border-top border-3 border-secondary" id="dashboard-menu">
+<div class="col-lg-2 bg-dark border-top border-3 border-secondary bgcolor-sidebar" id="dashboard-menu">
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid flex-lg-column align-items-stretch">
         <h4 class="mt-2 text-light" >Admin Panel</h4>
